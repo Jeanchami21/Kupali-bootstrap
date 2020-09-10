@@ -1,0 +1,46 @@
+<div class="d-flex justify-content-between logo-header">
+    <div class="p-2 bd-highlight logo">
+        <a class="link-logo" href="{{ path('home') }}">Kupali
+        </a><span class="slogan">Le temps que ça pousse</span>
+    </div>
+    <div class="p-2 bd-highlight">
+        <button type="button" class="btn btn-outline-secondary connexion">Connexion</button>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="{{ path('home') }}">
+        <img class="seed-of-life" src="https://img.icons8.com/carbon-copy/100/000000/seed-of-life.png"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ path('home') }}">Accueil</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Nos Graines
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Familles</a>
+                <a class="dropdown-item" href="#">Espèces</a>
+                <a class="dropdown-item" href="#">Variétés</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<div class="d-flex justify-content-center alphabetic-content">
+    {% for letter in 'a'..'z' %}
+        <a class="alphabetic-letter" href="{{ path('alphabetical_pagination', {'letter' : letter}) }}">{{ letter|upper }}</a>
+    {% endfor %}
+</div>
+

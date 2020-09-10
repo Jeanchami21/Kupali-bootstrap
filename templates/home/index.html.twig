@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    {% for i in 1..3 %}
+        <div class="row">
+        {% for j in 0..8 %}
+            <div class="col">
+           
+                <a href="">
+                    <img src="{{ varieties[j*i].coverImage }}" alt="..." class="rounded-circle">
+                </a>
+            </div>
+        {% endfor %}
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

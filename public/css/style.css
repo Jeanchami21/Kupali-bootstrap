@@ -1,0 +1,176 @@
+body {
+    font-family: 'Halant', serif;
+    font-weight: 400;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+}
+
+.logo-header{
+    height: 170px;
+
+}
+
+.logo {
+     margin-top: 20px;
+     margin-left: 20px;
+}
+
+.link-logo {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+   
+}
+
+.link-logo:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.slogan {
+    color: #DD7564;
+    display: block;
+    font-size: 21px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    width: 300px; 
+}
+
+.connexion {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.navbar {
+    height: 4em !important;
+}
+
+.seed-of-life {
+    width: 33px;
+    height: 33px;   
+}
+
+.seed-of-life:hover{
+    background-color: #B2DEDD;
+    opacity: 0.6;
+    border-radius: 50%;
+   
+}
+
+
+.connexion {
+    font-family: 'Halant', serif;
+    font-weight: 400;
+  
+    font-size: 11px;
+   text-transform: lowercase;
+    letter-spacing: 2px;
+   
+}
+
+
+.alphabetic-content {
+    font-size: 16px;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 23px;
+    text-decoration: none;
+    border-bottom: 5px solid #B2DEDD;
+    width: 80%;
+    margin: auto;
+    margin-top: 1em; 
+}
+
+.alphabetic-letter {
+   text-decoration: none;
+    color: black;   
+}
+
+.alphabetic-letter:hover {
+    text-decoration: none;
+    color: #DD7564;   
+ }
+
+.introduction {
+    text-align: center;
+}
+
+.left {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 15px 0 0 15px;
+}
+.right {
+    height: 2.5em;
+   
+    border-radius: 0 15px 15px 0;
+}
+
+.navbar {
+    height: 5em;
+}
+
+.alphabet {
+    font-size: 16px;
+    color:black;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+}
+
+.alphabet:hover {
+    color: #DD7564;
+}
+
+.columns.is-multiline {
+    justify-content: center;
+}
+.le-jour {
+   width: 10em;
+   margin: auto;
+}
+
+.titre-jour {
+    font-size: 20px;
+    color: #DD7564;
+}
+
+.big-letter {
+    font-size: 30px;
+}
+
+.left-side {
+    margin-left: 3em;
+    width: 300px;
+}
+
+div img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ a:hover img{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.small{
+    font-size: 10px;
+}
+.header {
+    background-color: #F0EDE6;
+    height: 250px;
+}
+
+.rounded-circle {
+    width: 50px;
+    margin-top: 3em;
+}
